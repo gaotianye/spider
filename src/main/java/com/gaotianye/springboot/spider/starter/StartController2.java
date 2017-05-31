@@ -1,9 +1,6 @@
 package com.gaotianye.springboot.spider.starter;
 
 import java.util.List;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 import javax.annotation.Resource;
 
@@ -13,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.gaotianye.springboot.spider.constant.Constant;
 import com.gaotianye.springboot.spider.download.IDownload;
 import com.gaotianye.springboot.spider.factory.DownloadFactory;
 import com.gaotianye.springboot.spider.factory.ProcessFactory;
@@ -22,13 +18,12 @@ import com.gaotianye.springboot.spider.factory.StoreFactory;
 import com.gaotianye.springboot.spider.page.Page;
 import com.gaotianye.springboot.spider.process.IProcess;
 import com.gaotianye.springboot.spider.repository.IRepository;
-import com.gaotianye.springboot.spider.repository.RedisUtils;
 import com.gaotianye.springboot.spider.store.IStore;
 import com.gaotianye.springboot.spider.utils.SleepUtils;
 import com.gaotianye.springboot.spider.utils.StringUtils;
 
 @RestController
-@RequestMapping("spider")
+@RequestMapping("spider2")
 public class StartController2 {
 	private static Logger logger = LoggerFactory.getLogger(StartController2.class);
 	
