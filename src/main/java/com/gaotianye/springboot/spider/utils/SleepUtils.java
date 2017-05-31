@@ -2,12 +2,18 @@ package com.gaotianye.springboot.spider.utils;
 
 import java.util.Random;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.gaotianye.springboot.spider.starter.StartController;
+
 /**
  * Sleep工具类
  * @author gaotianye
  *
  */
 public class SleepUtils {
+	private static Logger logger = LoggerFactory.getLogger(SleepUtils.class);
 	/**
 	 * 指定休息时间
 	 * @param times
@@ -26,6 +32,7 @@ public class SleepUtils {
 		Random random = new Random();
 		//至少5s
 		int nextInt = random.nextInt(20000)+5000;
+		logger.info("sleep {}s ",nextInt/1000);
 		try {
 			Thread.sleep(nextInt);
 		} catch (InterruptedException e) {
