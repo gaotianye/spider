@@ -1,0 +1,3 @@
+2017-05-22 15:58:54.187 [main:1177] [o.a.hadoop.util.NativeCodeLoader] - [ WARN ]  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-22 16:00:52.845 [main:8426] [o.a.hadoop.util.NativeCodeLoader] - [ WARN ]  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2017-05-22 16:05:31.370 [main:6659] [o.a.hadoop.util.NativeCodeLoader] - [ WARN ]  Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

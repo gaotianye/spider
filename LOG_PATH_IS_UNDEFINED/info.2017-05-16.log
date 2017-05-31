@@ -1,0 +1,227 @@
+2017-05-16 21:49:50.986 [main:1129] [c.g.s.spider.SpiderApplication] - [ INFO ]  Starting SpiderApplication on DESKTOP-I84AP7P with PID 2572 (E:\CelLoud\spider\target\classes started by gaotianye in E:\CelLoud\spider)
+2017-05-16 21:49:50.993 [main:1136] [c.g.s.spider.SpiderApplication] - [ INFO ]  The following profiles are active: dev
+2017-05-16 21:49:51.180 [main:1323] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20b3461: startup date [Tue May 16 21:49:51 CST 2017]; root of context hierarchy
+2017-05-16 21:49:51.608 [background-preinit:1751] [o.h.validator.internal.util.Version] - [ INFO ]  HV000001: Hibernate Validator 5.2.4.Final
+2017-05-16 21:49:53.707 [main:3850] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat initialized with port(s): 8080 (http)
+2017-05-16 21:49:53.726 [main:3869] [o.a.catalina.core.StandardService] - [ INFO ]  Starting service Tomcat
+2017-05-16 21:49:53.728 [main:3871] [o.a.catalina.core.StandardEngine] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-05-16 21:49:53.939 [localhost-startStop-1:4082] [o.a.c.c.C.[Tomcat].[localhost].[/]] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+2017-05-16 21:49:53.939 [localhost-startStop-1:4082] [o.s.web.context.ContextLoader] - [ INFO ]  Root WebApplicationContext: initialization completed in 2759 ms
+2017-05-16 21:49:54.264 [localhost-startStop-1:4407] [o.s.b.w.s.ServletRegistrationBean] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 21:49:54.269 [localhost-startStop-1:4412] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 21:49:54.270 [localhost-startStop-1:4413] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 21:49:54.270 [localhost-startStop-1:4413] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 21:49:54.271 [localhost-startStop-1:4414] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 21:49:54.805 [main:4948] [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20b3461: startup date [Tue May 16 21:49:51 CST 2017]; root of context hierarchy
+2017-05-16 21:49:55.124 [main:5267] [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-16 21:49:55.127 [main:5270] [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-16 21:49:55.210 [main:5353] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 21:49:55.211 [main:5354] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 21:49:55.362 [main:5505] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 21:49:55.852 [main:5995] [o.s.j.e.a.AnnotationMBeanExporter] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-05-16 21:49:55.878 [main:6021] [o.s.s.a.ScheduledAnnotationBeanPostProcessor] - [ INFO ]  No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-05-16 21:49:55.907 [main:6050] [o.a.coyote.http11.Http11NioProtocol] - [ INFO ]  Initializing ProtocolHandler ["http-nio-8080"]
+2017-05-16 21:49:55.929 [main:6072] [o.a.coyote.http11.Http11NioProtocol] - [ INFO ]  Starting ProtocolHandler [http-nio-8080]
+2017-05-16 21:49:55.967 [main:6110] [o.a.tomcat.util.net.NioSelectorPool] - [ INFO ]  Using a shared selector for servlet write/read
+2017-05-16 21:49:56.010 [main:6153] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat started on port(s): 8080 (http)
+2017-05-16 21:49:56.022 [main:6165] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########展示爬虫的基本信息如下#########
+2017-05-16 21:49:56.023 [main:6166] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########京东redis初始化url：https://jiu.jd.com/
+2017-05-16 21:49:56.029 [main:6172] [c.g.s.spider.SpiderApplication] - [ INFO ]  Started SpiderApplication in 5.688 seconds (JVM running for 6.682)
+2017-05-16 21:49:56.030 [main:6173] [c.g.s.spider.SpiderApplication] - [ INFO ]  ####################spider start####################
+2017-05-16 21:50:00.002 [pool-1-thread-1:10145] [c.g.s.spider.scheduler.Spider] - [ INFO ]  开始执行调度任务.......................
+2017-05-16 21:50:32.225 [RMI TCP Connection(2)-127.0.0.1:42368] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - [ INFO ]  Application shutdown requested.
+2017-05-16 21:50:32.225 [RMI TCP Connection(2)-127.0.0.1:42368] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20b3461: startup date [Tue May 16 21:49:51 CST 2017]; root of context hierarchy
+2017-05-16 21:50:32.229 [RMI TCP Connection(2)-127.0.0.1:42372] [o.s.j.e.a.AnnotationMBeanExporter] - [ INFO ]  Unregistering JMX-exposed beans on shutdown
+2017-05-16 22:56:32.186 [main:1121] [c.g.s.spider.SpiderApplication] - [ INFO ]  Starting SpiderApplication on DESKTOP-I84AP7P with PID 10536 (E:\CelLoud\spider\target\classes started by gaotianye in E:\CelLoud\spider)
+2017-05-16 22:56:32.191 [main:1126] [c.g.s.spider.SpiderApplication] - [ INFO ]  The following profiles are active: dev
+2017-05-16 22:56:32.329 [main:1264] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6292fab0: startup date [Tue May 16 22:56:32 CST 2017]; root of context hierarchy
+2017-05-16 22:56:32.610 [background-preinit:1545] [o.h.validator.internal.util.Version] - [ INFO ]  HV000001: Hibernate Validator 5.2.4.Final
+2017-05-16 22:56:34.945 [main:3880] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat initialized with port(s): 8080 (http)
+2017-05-16 22:56:34.963 [main:3898] [o.a.catalina.core.StandardService] - [ INFO ]  Starting service Tomcat
+2017-05-16 22:56:34.965 [main:3900] [o.a.catalina.core.StandardEngine] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-05-16 22:56:35.185 [localhost-startStop-1:4120] [o.a.c.c.C.[Tomcat].[localhost].[/]] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+2017-05-16 22:56:35.186 [localhost-startStop-1:4121] [o.s.web.context.ContextLoader] - [ INFO ]  Root WebApplicationContext: initialization completed in 2857 ms
+2017-05-16 22:56:35.776 [localhost-startStop-1:4711] [o.s.b.w.s.ServletRegistrationBean] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 22:56:35.780 [localhost-startStop-1:4715] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 22:56:35.781 [localhost-startStop-1:4716] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 22:56:35.781 [localhost-startStop-1:4716] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 22:56:35.781 [localhost-startStop-1:4716] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 22:56:35.861 [main:4796] [o.a.catalina.core.StandardService] - [ INFO ]  Stopping service Tomcat
+2017-05-16 22:56:35.882 [main:4817] [o.s.b.a.l.AutoConfigurationReportLoggingInitializer] - [ INFO ]  
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-16 23:02:47.161 [main:1230] [c.g.s.spider.SpiderApplication] - [ INFO ]  Starting SpiderApplication on DESKTOP-I84AP7P with PID 5324 (E:\CelLoud\spider\target\classes started by gaotianye in E:\CelLoud\spider)
+2017-05-16 23:02:47.168 [main:1237] [c.g.s.spider.SpiderApplication] - [ INFO ]  The following profiles are active: dev
+2017-05-16 23:02:47.304 [main:1373] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58430cb2: startup date [Tue May 16 23:02:47 CST 2017]; root of context hierarchy
+2017-05-16 23:02:47.585 [background-preinit:1654] [o.h.validator.internal.util.Version] - [ INFO ]  HV000001: Hibernate Validator 5.2.4.Final
+2017-05-16 23:02:50.008 [main:4077] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat initialized with port(s): 8080 (http)
+2017-05-16 23:02:50.027 [main:4096] [o.a.catalina.core.StandardService] - [ INFO ]  Starting service Tomcat
+2017-05-16 23:02:50.028 [main:4097] [o.a.catalina.core.StandardEngine] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-05-16 23:02:50.234 [localhost-startStop-1:4303] [o.a.c.c.C.[Tomcat].[localhost].[/]] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+2017-05-16 23:02:50.235 [localhost-startStop-1:4304] [o.s.web.context.ContextLoader] - [ INFO ]  Root WebApplicationContext: initialization completed in 2931 ms
+2017-05-16 23:02:50.565 [localhost-startStop-1:4634] [o.s.b.w.s.ServletRegistrationBean] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 23:02:50.570 [localhost-startStop-1:4639] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 23:02:50.571 [localhost-startStop-1:4640] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 23:02:50.571 [localhost-startStop-1:4640] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 23:02:50.571 [localhost-startStop-1:4640] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 23:02:51.123 [main:5192] [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58430cb2: startup date [Tue May 16 23:02:47 CST 2017]; root of context hierarchy
+2017-05-16 23:02:51.236 [main:5305] [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-16 23:02:51.238 [main:5307] [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-16 23:02:51.315 [main:5384] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 23:02:51.316 [main:5385] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 23:02:51.444 [main:5513] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 23:02:52.020 [main:6089] [o.s.j.e.a.AnnotationMBeanExporter] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-05-16 23:02:52.042 [main:6111] [o.s.s.a.ScheduledAnnotationBeanPostProcessor] - [ INFO ]  No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-05-16 23:02:52.058 [main:6127] [o.a.coyote.http11.Http11NioProtocol] - [ INFO ]  Initializing ProtocolHandler ["http-nio-8080"]
+2017-05-16 23:02:52.070 [main:6139] [o.a.coyote.http11.Http11NioProtocol] - [ INFO ]  Starting ProtocolHandler [http-nio-8080]
+2017-05-16 23:02:52.089 [main:6158] [o.a.tomcat.util.net.NioSelectorPool] - [ INFO ]  Using a shared selector for servlet write/read
+2017-05-16 23:02:52.119 [main:6188] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat started on port(s): 8080 (http)
+2017-05-16 23:02:52.126 [main:6195] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########展示爬虫的基本信息如下#########
+2017-05-16 23:02:52.127 [main:6196] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########京东redis初始化url：https://jiu.jd.com/
+2017-05-16 23:02:52.127 [main:6196] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########下载实现类：null
+2017-05-16 23:02:52.131 [main:6200] [c.g.s.spider.SpiderApplication] - [ INFO ]  Started SpiderApplication in 5.662 seconds (JVM running for 6.631)
+2017-05-16 23:02:52.133 [main:6202] [c.g.s.spider.SpiderApplication] - [ INFO ]  ####################spider start####################
+2017-05-16 23:03:00.001 [pool-1-thread-1:14070] [c.g.s.spider.scheduler.Spider] - [ INFO ]  开始执行调度任务.......................
+2017-05-16 23:03:06.207 [RMI TCP Connection(2)-127.0.0.1:20276] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - [ INFO ]  Application shutdown requested.
+2017-05-16 23:03:06.208 [RMI TCP Connection(2)-127.0.0.1:20277] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58430cb2: startup date [Tue May 16 23:02:47 CST 2017]; root of context hierarchy
+2017-05-16 23:03:06.211 [RMI TCP Connection(2)-127.0.0.1:20280] [o.s.j.e.a.AnnotationMBeanExporter] - [ INFO ]  Unregistering JMX-exposed beans on shutdown
+2017-05-16 23:03:59.096 [main:1109] [c.g.s.spider.SpiderApplication] - [ INFO ]  Starting SpiderApplication on DESKTOP-I84AP7P with PID 14936 (E:\CelLoud\spider\target\classes started by gaotianye in E:\CelLoud\spider)
+2017-05-16 23:03:59.101 [main:1114] [c.g.s.spider.SpiderApplication] - [ INFO ]  The following profiles are active: dev
+2017-05-16 23:03:59.244 [main:1257] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40c10930: startup date [Tue May 16 23:03:59 CST 2017]; root of context hierarchy
+2017-05-16 23:03:59.566 [background-preinit:1579] [o.h.validator.internal.util.Version] - [ INFO ]  HV000001: Hibernate Validator 5.2.4.Final
+2017-05-16 23:04:01.918 [main:3931] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat initialized with port(s): 8080 (http)
+2017-05-16 23:04:01.956 [main:3969] [o.a.catalina.core.StandardService] - [ INFO ]  Starting service Tomcat
+2017-05-16 23:04:01.959 [main:3972] [o.a.catalina.core.StandardEngine] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-05-16 23:04:02.161 [localhost-startStop-1:4174] [o.a.c.c.C.[Tomcat].[localhost].[/]] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+2017-05-16 23:04:02.161 [localhost-startStop-1:4174] [o.s.web.context.ContextLoader] - [ INFO ]  Root WebApplicationContext: initialization completed in 2917 ms
+2017-05-16 23:04:02.478 [localhost-startStop-1:4491] [o.s.b.w.s.ServletRegistrationBean] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 23:04:02.483 [localhost-startStop-1:4496] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 23:04:02.484 [localhost-startStop-1:4497] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 23:04:02.484 [localhost-startStop-1:4497] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 23:04:02.485 [localhost-startStop-1:4498] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 23:04:03.038 [main:5051] [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40c10930: startup date [Tue May 16 23:03:59 CST 2017]; root of context hierarchy
+2017-05-16 23:04:03.161 [main:5174] [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-16 23:04:03.165 [main:5178] [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-16 23:04:03.239 [main:5252] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 23:04:03.239 [main:5252] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 23:04:03.385 [main:5398] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 23:04:03.900 [main:5913] [o.s.j.e.a.AnnotationMBeanExporter] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-05-16 23:04:03.919 [main:5932] [o.s.s.a.ScheduledAnnotationBeanPostProcessor] - [ INFO ]  No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-05-16 23:04:03.941 [main:5954] [o.a.coyote.http11.Http11NioProtocol] - [ INFO ]  Initializing ProtocolHandler ["http-nio-8080"]
+2017-05-16 23:04:03.958 [main:5971] [o.a.coyote.http11.Http11NioProtocol] - [ INFO ]  Starting ProtocolHandler [http-nio-8080]
+2017-05-16 23:04:03.983 [main:5996] [o.a.tomcat.util.net.NioSelectorPool] - [ INFO ]  Using a shared selector for servlet write/read
+2017-05-16 23:04:04.035 [main:6048] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat started on port(s): 8080 (http)
+2017-05-16 23:04:04.043 [main:6056] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########展示爬虫的基本信息如下#########
+2017-05-16 23:04:04.054 [main:6067] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########京东redis初始化url：https://jiu.jd.com/
+2017-05-16 23:04:04.055 [main:6068] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########下载实现类：com.gaotianye.springboot.spider.download.HttpCLientDownloadImpl
+2017-05-16 23:04:04.067 [main:6080] [c.g.s.spider.SpiderApplication] - [ INFO ]  Started SpiderApplication in 5.624 seconds (JVM running for 6.55)
+2017-05-16 23:04:04.067 [main:6080] [c.g.s.spider.SpiderApplication] - [ INFO ]  ####################spider start####################
+2017-05-16 23:05:00.001 [pool-1-thread-1:62014] [c.g.s.spider.scheduler.Spider] - [ INFO ]  开始执行调度任务.......................
+2017-05-16 23:05:00.789 [pool-1-thread-1:62802] [c.g.s.spider.utils.PageUtils] - [ INFO ]  页面下载成功，消耗时间：418,url：https://jiu.jd.com/
+2017-05-16 23:05:08.334 [RMI TCP Connection(2)-127.0.0.1:70347] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - [ INFO ]  Application shutdown requested.
+2017-05-16 23:05:08.334 [RMI TCP Connection(2)-127.0.0.1:70347] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40c10930: startup date [Tue May 16 23:03:59 CST 2017]; root of context hierarchy
+2017-05-16 23:05:08.337 [RMI TCP Connection(2)-127.0.0.1:70350] [o.s.j.e.a.AnnotationMBeanExporter] - [ INFO ]  Unregistering JMX-exposed beans on shutdown
+2017-05-16 23:38:33.252 [main:1169] [c.g.s.spider.SpiderApplication] - [ INFO ]  Starting SpiderApplication on DESKTOP-I84AP7P with PID 12640 (E:\CelLoud\spider\target\classes started by gaotianye in E:\CelLoud\spider)
+2017-05-16 23:38:33.258 [main:1175] [c.g.s.spider.SpiderApplication] - [ INFO ]  The following profiles are active: dev
+2017-05-16 23:38:33.407 [main:1324] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27e794b: startup date [Tue May 16 23:38:33 CST 2017]; root of context hierarchy
+2017-05-16 23:38:33.702 [background-preinit:1619] [o.h.validator.internal.util.Version] - [ INFO ]  HV000001: Hibernate Validator 5.2.4.Final
+2017-05-16 23:38:36.070 [main:3987] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat initialized with port(s): 8080 (http)
+2017-05-16 23:38:36.086 [main:4003] [o.a.catalina.core.StandardService] - [ INFO ]  Starting service Tomcat
+2017-05-16 23:38:36.088 [main:4005] [o.a.catalina.core.StandardEngine] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-05-16 23:38:36.273 [localhost-startStop-1:4190] [o.a.c.c.C.[Tomcat].[localhost].[/]] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+2017-05-16 23:38:36.273 [localhost-startStop-1:4190] [o.s.web.context.ContextLoader] - [ INFO ]  Root WebApplicationContext: initialization completed in 2866 ms
+2017-05-16 23:38:36.588 [localhost-startStop-1:4505] [o.s.b.w.s.ServletRegistrationBean] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 23:38:36.595 [localhost-startStop-1:4512] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 23:38:36.596 [localhost-startStop-1:4513] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 23:38:36.597 [localhost-startStop-1:4514] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 23:38:36.597 [localhost-startStop-1:4514] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 23:38:36.709 [main:4626] [o.a.catalina.core.StandardService] - [ INFO ]  Stopping service Tomcat
+2017-05-16 23:38:36.735 [main:4652] [o.s.b.a.l.AutoConfigurationReportLoggingInitializer] - [ INFO ]  
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-16 23:41:08.652 [main:1342] [c.g.s.spider.SpiderApplication] - [ INFO ]  Starting SpiderApplication on DESKTOP-I84AP7P with PID 13920 (E:\CelLoud\spider\target\classes started by gaotianye in E:\CelLoud\spider)
+2017-05-16 23:41:08.656 [main:1346] [c.g.s.spider.SpiderApplication] - [ INFO ]  The following profiles are active: dev
+2017-05-16 23:41:08.775 [main:1465] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20836bc5: startup date [Tue May 16 23:41:08 CST 2017]; root of context hierarchy
+2017-05-16 23:41:09.083 [background-preinit:1773] [o.h.validator.internal.util.Version] - [ INFO ]  HV000001: Hibernate Validator 5.2.4.Final
+2017-05-16 23:41:15.147 [main:7837] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat initialized with port(s): 8080 (http)
+2017-05-16 23:41:15.162 [main:7852] [o.a.catalina.core.StandardService] - [ INFO ]  Starting service Tomcat
+2017-05-16 23:41:15.163 [main:7853] [o.a.catalina.core.StandardEngine] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-05-16 23:41:15.431 [localhost-startStop-1:8121] [o.a.c.c.C.[Tomcat].[localhost].[/]] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+2017-05-16 23:41:15.432 [localhost-startStop-1:8122] [o.s.web.context.ContextLoader] - [ INFO ]  Root WebApplicationContext: initialization completed in 6657 ms
+2017-05-16 23:41:15.779 [localhost-startStop-1:8469] [o.s.b.w.s.ServletRegistrationBean] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 23:41:15.787 [localhost-startStop-1:8477] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 23:41:15.787 [localhost-startStop-1:8477] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 23:41:15.788 [localhost-startStop-1:8478] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 23:41:15.788 [localhost-startStop-1:8478] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 23:43:09.510 [main:1342] [c.g.s.spider.SpiderApplication] - [ INFO ]  Starting SpiderApplication on DESKTOP-I84AP7P with PID 14432 (E:\CelLoud\spider\target\classes started by gaotianye in E:\CelLoud\spider)
+2017-05-16 23:43:09.517 [main:1349] [c.g.s.spider.SpiderApplication] - [ INFO ]  The following profiles are active: dev
+2017-05-16 23:43:09.666 [main:1498] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2efca6ab: startup date [Tue May 16 23:43:09 CST 2017]; root of context hierarchy
+2017-05-16 23:43:09.982 [background-preinit:1814] [o.h.validator.internal.util.Version] - [ INFO ]  HV000001: Hibernate Validator 5.2.4.Final
+2017-05-16 23:43:14.707 [main:6539] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat initialized with port(s): 8080 (http)
+2017-05-16 23:43:14.722 [main:6554] [o.a.catalina.core.StandardService] - [ INFO ]  Starting service Tomcat
+2017-05-16 23:43:14.724 [main:6556] [o.a.catalina.core.StandardEngine] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-05-16 23:43:14.942 [localhost-startStop-1:6774] [o.a.c.c.C.[Tomcat].[localhost].[/]] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+2017-05-16 23:43:14.943 [localhost-startStop-1:6775] [o.s.web.context.ContextLoader] - [ INFO ]  Root WebApplicationContext: initialization completed in 5276 ms
+2017-05-16 23:43:15.303 [localhost-startStop-1:7135] [o.s.b.w.s.ServletRegistrationBean] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 23:43:15.309 [localhost-startStop-1:7141] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 23:43:15.309 [localhost-startStop-1:7141] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 23:43:15.309 [localhost-startStop-1:7141] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 23:43:15.309 [localhost-startStop-1:7141] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 23:43:15.435 [main:7267] [o.a.catalina.core.StandardService] - [ INFO ]  Stopping service Tomcat
+2017-05-16 23:43:15.471 [main:7303] [o.s.b.a.l.AutoConfigurationReportLoggingInitializer] - [ INFO ]  
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-16 23:49:47.499 [main:1187] [c.g.s.spider.SpiderApplication] - [ INFO ]  Starting SpiderApplication on DESKTOP-I84AP7P with PID 492 (E:\CelLoud\spider\target\classes started by gaotianye in E:\CelLoud\spider)
+2017-05-16 23:49:47.507 [main:1195] [c.g.s.spider.SpiderApplication] - [ INFO ]  The following profiles are active: dev
+2017-05-16 23:49:47.647 [main:1335] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@76367777: startup date [Tue May 16 23:49:47 CST 2017]; root of context hierarchy
+2017-05-16 23:49:48.066 [background-preinit:1754] [o.h.validator.internal.util.Version] - [ INFO ]  HV000001: Hibernate Validator 5.2.4.Final
+2017-05-16 23:50:43.300 [main:56988] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat initialized with port(s): 8080 (http)
+2017-05-16 23:50:43.319 [main:57007] [o.a.catalina.core.StandardService] - [ INFO ]  Starting service Tomcat
+2017-05-16 23:50:43.320 [main:57008] [o.a.catalina.core.StandardEngine] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-05-16 23:50:43.545 [localhost-startStop-1:57233] [o.a.c.c.C.[Tomcat].[localhost].[/]] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+2017-05-16 23:50:43.546 [localhost-startStop-1:57234] [o.s.web.context.ContextLoader] - [ INFO ]  Root WebApplicationContext: initialization completed in 55899 ms
+2017-05-16 23:50:43.859 [localhost-startStop-1:57547] [o.s.b.w.s.ServletRegistrationBean] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 23:50:43.866 [localhost-startStop-1:57554] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 23:50:43.868 [localhost-startStop-1:57556] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 23:50:43.868 [localhost-startStop-1:57556] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 23:50:43.868 [localhost-startStop-1:57556] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 23:50:44.002 [main:57690] [o.a.catalina.core.StandardService] - [ INFO ]  Stopping service Tomcat
+2017-05-16 23:50:44.032 [main:57720] [o.s.b.a.l.AutoConfigurationReportLoggingInitializer] - [ INFO ]  
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-05-16 23:55:01.097 [main:1193] [c.g.s.spider.SpiderApplication] - [ INFO ]  Starting SpiderApplication on DESKTOP-I84AP7P with PID 8456 (E:\CelLoud\spider\target\classes started by gaotianye in E:\CelLoud\spider)
+2017-05-16 23:55:01.103 [main:1199] [c.g.s.spider.SpiderApplication] - [ INFO ]  The following profiles are active: dev
+2017-05-16 23:55:01.237 [main:1333] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@610f4a16: startup date [Tue May 16 23:55:01 CST 2017]; root of context hierarchy
+2017-05-16 23:55:01.495 [background-preinit:1591] [o.h.validator.internal.util.Version] - [ INFO ]  HV000001: Hibernate Validator 5.2.4.Final
+2017-05-16 23:55:03.668 [main:3764] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat initialized with port(s): 8080 (http)
+2017-05-16 23:55:03.683 [main:3779] [o.a.catalina.core.StandardService] - [ INFO ]  Starting service Tomcat
+2017-05-16 23:55:03.684 [main:3780] [o.a.catalina.core.StandardEngine] - [ INFO ]  Starting Servlet Engine: Apache Tomcat/8.5.6
+2017-05-16 23:55:03.880 [localhost-startStop-1:3976] [o.a.c.c.C.[Tomcat].[localhost].[/]] - [ INFO ]  Initializing Spring embedded WebApplicationContext
+2017-05-16 23:55:03.880 [localhost-startStop-1:3976] [o.s.web.context.ContextLoader] - [ INFO ]  Root WebApplicationContext: initialization completed in 2643 ms
+2017-05-16 23:55:04.190 [localhost-startStop-1:4286] [o.s.b.w.s.ServletRegistrationBean] - [ INFO ]  Mapping servlet: 'dispatcherServlet' to [/]
+2017-05-16 23:55:04.197 [localhost-startStop-1:4293] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-05-16 23:55:04.198 [localhost-startStop-1:4294] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-05-16 23:55:04.198 [localhost-startStop-1:4294] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-05-16 23:55:04.198 [localhost-startStop-1:4294] [o.s.b.w.s.FilterRegistrationBean] - [ INFO ]  Mapping filter: 'requestContextFilter' to: [/*]
+2017-05-16 23:55:04.726 [main:4822] [o.s.w.s.m.m.a.RequestMappingHandlerAdapter] - [ INFO ]  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@610f4a16: startup date [Tue May 16 23:55:01 CST 2017]; root of context hierarchy
+2017-05-16 23:55:04.828 [main:4924] [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - [ INFO ]  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-05-16 23:55:04.829 [main:4925] [o.s.w.s.m.m.a.RequestMappingHandlerMapping] - [ INFO ]  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-05-16 23:55:04.894 [main:4990] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 23:55:04.895 [main:4991] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 23:55:05.013 [main:5109] [o.s.w.s.h.SimpleUrlHandlerMapping] - [ INFO ]  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-05-16 23:55:05.448 [main:5544] [o.s.j.e.a.AnnotationMBeanExporter] - [ INFO ]  Registering beans for JMX exposure on startup
+2017-05-16 23:55:05.468 [main:5564] [o.s.s.a.ScheduledAnnotationBeanPostProcessor] - [ INFO ]  No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-05-16 23:55:05.487 [main:5583] [o.a.coyote.http11.Http11NioProtocol] - [ INFO ]  Initializing ProtocolHandler ["http-nio-8080"]
+2017-05-16 23:55:05.505 [main:5601] [o.a.coyote.http11.Http11NioProtocol] - [ INFO ]  Starting ProtocolHandler [http-nio-8080]
+2017-05-16 23:55:05.522 [main:5618] [o.a.tomcat.util.net.NioSelectorPool] - [ INFO ]  Using a shared selector for servlet write/read
+2017-05-16 23:55:05.564 [main:5660] [o.s.b.c.e.t.TomcatEmbeddedServletContainer] - [ INFO ]  Tomcat started on port(s): 8080 (http)
+2017-05-16 23:55:05.571 [main:5667] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########展示爬虫的基本信息如下#########
+2017-05-16 23:55:05.572 [main:5668] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########京东redis初始化url：https://jiu.jd.com/
+2017-05-16 23:55:05.572 [main:5668] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########下载实现类：com.gaotianye.springboot.spider.download.HttpCLientDownloadImpl
+2017-05-16 23:55:05.572 [main:5668] [c.g.s.spider.listener.StartUpRunner] - [ INFO ]  #########解析实现类：com.gaotianye.springboot.spider.process.JDProcess
+2017-05-16 23:55:05.577 [main:5673] [c.g.s.spider.SpiderApplication] - [ INFO ]  Started SpiderApplication in 5.16 seconds (JVM running for 6.12)
+2017-05-16 23:55:05.577 [main:5673] [c.g.s.spider.SpiderApplication] - [ INFO ]  ####################spider start####################
+2017-05-16 23:56:00.002 [pool-1-thread-1:60098] [c.g.s.spider.scheduler.Spider] - [ INFO ]  开始执行调度任务.......................
+2017-05-16 23:56:21.360 [RMI TCP Connection(2)-127.0.0.1:81456] [o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] - [ INFO ]  Application shutdown requested.
+2017-05-16 23:56:21.361 [RMI TCP Connection(2)-127.0.0.1:81457] [o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext] - [ INFO ]  Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@610f4a16: startup date [Tue May 16 23:55:01 CST 2017]; root of context hierarchy
+2017-05-16 23:56:21.366 [RMI TCP Connection(2)-127.0.0.1:81462] [o.s.j.e.a.AnnotationMBeanExporter] - [ INFO ]  Unregistering JMX-exposed beans on shutdown
