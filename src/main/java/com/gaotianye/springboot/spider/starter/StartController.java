@@ -28,7 +28,7 @@ import com.gaotianye.springboot.spider.utils.SleepUtils;
 import com.gaotianye.springboot.spider.utils.StringUtils;
 
 @RestController
-@RequestMapping("spider")
+@RequestMapping("spider2")
 public class StartController {
 	private static Logger logger = LoggerFactory.getLogger(StartController.class);
 	
