@@ -29,5 +29,5 @@ public class Constant {
 	/**
 	 * 线程池
 	 */
-	public static final int NTHREAD = 5;
+	public static final int NTHREAD = 4;
 }
