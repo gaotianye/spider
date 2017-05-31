@@ -1,7 +1,6 @@
 package com.gaotianye.springboot.spider.starter;
 
 import java.util.List;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -22,13 +21,17 @@ import com.gaotianye.springboot.spider.factory.StoreFactory;
 import com.gaotianye.springboot.spider.page.Page;
 import com.gaotianye.springboot.spider.process.IProcess;
 import com.gaotianye.springboot.spider.repository.IRepository;
-import com.gaotianye.springboot.spider.repository.RedisUtils;
 import com.gaotianye.springboot.spider.store.IStore;
 import com.gaotianye.springboot.spider.utils.SleepUtils;
 import com.gaotianye.springboot.spider.utils.StringUtils;
 
+/**
+ * TODO 多线程 速度特别的慢
+ * @author gaotianye
+ *
+ */
 @RestController
-@RequestMapping("spider2")
+@RequestMapping("spider")
 public class StartController {
 	private static Logger logger = LoggerFactory.getLogger(StartController.class);
 	
@@ -69,9 +72,9 @@ public class StartController {
 		
 		if(download!=null && process!=null && store!=null && repository!=null){
 			//初始化操作，如果set中存在信息，则不会存储成功
-//			repository.addHigher("https://list.jd.com/list.html?cat=9987,653,655&page=125&sort=sort_rank_asc&trans=1&JL=6_0_0&ms=6#J_main");
+			repository.addHigher("https://list.jd.com/list.html?cat=9987,653,655&page=129&sort=sort_rank_asc&trans=1&JL=6_0_0&ms=6#J_main");
 //			repository.addHigher("https://list.jd.com/list.html?cat=9987,653,655&page=2&sort=sort_rank_asc&trans=1&JL=6_0_0&ms=6#J_main");
-			repository.addHigher("https://list.jd.com/list.html?cat=9987,653,655");
+//			repository.addHigher("https://list.jd.com/list.html?cat=9987,653,655");
 //			repository.add("https://item.jd.com/1971822255.html");
 //			repository.add("http://item.jd.com/1137831.html");
 			while(true){
@@ -85,7 +88,6 @@ public class StartController {
 							logger.info("队列中暂时没有需要抓取的url，休息10s");
 							SleepUtils.sleep(10000);
 						}else{
-							SleepUtils.sleep();
 							//下载页面，获取Page对象
 							Page page = download.download(url);
 							//如果页面下载失败，则continue
